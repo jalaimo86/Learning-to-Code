@@ -22,6 +22,13 @@
                 height: fit-content;
                 width: fit-content;
             }
+            .outer{
+                width:100%;
+                text-align: center;
+            }
+            .inner{
+                display: inline-block;
+            }
 /* section for the headers and paragraphs */
             h1{
                 text-decoration: underline;
@@ -38,7 +45,7 @@
                 width: fit-content;
                 border: 5px solid gold;
                 margin-left: auto;
-                margin-right: auto;
+                margin-right: auto; 
             }
 /* section for the divisions */
             div.relativeHeader{
@@ -56,8 +63,8 @@
                 left: 0px;
                 border: 5px solid gold;
                 background-color: whitesmoke;
-                height: fit-content;
-                width: fit-content;
+                height: 50%;
+                width: 40%;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -78,7 +85,6 @@
     <body>
         <style>
             body {background-color: maroon;}
-            
             h1{color: gold}
         </style>
         <h1 style="text-align: center">Workout Page</h1>
@@ -94,17 +100,18 @@
         </div>
         <h2>I want to help you achieve the best version of you, whatever that is!</h2>
         <div class=image1>
-        <img src="images/stockphoto1-2.jpg" style="float:left;width:24.5%;height:60%;border: 5px solid gold">
+        <img src="images/stockphoto1-2.jpg" style="float:left;width:26%;height:55%;border: 5px solid gold">
             <p>I left corporate America to commit 100% of my time and <br>effort to grow a business built by my passion. Fitness is not <br>only about how you look on the outside but the strength <br>within to walk with confidence and have the tools to live a <br>long, healthy, and purposeful life. 
             <br>I fell in love with this industry because of YOU. <br>Your transformations through mind, body, <br>and soul are the reasons I do what I do!<br>When you join the X Fit Fam and change your <br>lifestyle, you'll feel happier, improve your energy, and build <br>yourself physically and mentally from a program you can <br>stick to for a lifetime!
             </p>
         </div>
         <br>
-        <div>
-            <h3 style="margin-left: 10%;background-color: white;border: 5px solid gold;color: black;width: fit-content;height: fit-content;"> This is one of my services! </h3>
-            <h3 style="margin-left: 10%;background-color: white;border: 5px solid gold;color: black;width: fit-content;height: fit-content;"> This is one of my services! </h3>
-            <h3 style="margin-left: 10%;background-color: white;border: 5px solid gold;color: black;width: fit-content;height: fit-content;"> This is one of my services! </h3>
-            <h3 style="margin-left: 10%;background-color: white;border: 5px solid gold;color: black;width: fit-content;height: fit-content;"> This is one of my services! </h3>
+
+        <div class="outer">
+            <div class="inner" style="margin-left: -25%;"> <button>Virtual Training</button></div>
+            <div class="inner" style="margin-left: 0%;"> <button>In Person Training</button></div>
+            <div class="inner" style="margin-left: 50%"> <button>Nutrition</button></div>
         </div>
+        <br>
     </body>
 </html>
